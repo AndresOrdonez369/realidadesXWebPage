@@ -1322,8 +1322,8 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 				color:white;
-				font-weight: 800;
-				background-color: #6647ff28;
+				font-weight: 900;
+				background-color: #24195abe;
 				
 			}
 
@@ -1662,3 +1662,49 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/* Estilos básicos para la lista y los enlaces (opcional, pero recomendado) */
+nav ul.content {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para ponerlos en línea, opcional */
+}
+
+nav ul.content li {
+    margin-right: 5px; /* Espacio entre elementos, si están en línea */
+}
+
+nav ul.content li a {
+    display: block; /* Hace que el enlace ocupe todo el espacio del li */
+    padding: 10px 15px; /* Espaciado interno para que se vea como un cuadro */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: white; /* Color del texto, asumiendo fondos oscuros */
+    text-align: center; /* Centra el texto en el cuadro */
+}
+
+/* Colores de fondo específicos para cada <li> */
+nav ul.content li:nth-child(1) a {
+    background-color: #6647ff28; /* Tomato */
+}
+
+nav ul.content li:nth-child(2) a {
+    background-color: #6647ff28; /* SteelBlue */
+}
+
+nav ul.content li:nth-child(3) a {
+    background-color: #6647ff28; /* LimeGreen */
+}
+
+nav ul.content li:nth-child(4) {
+    background-color: #6647ff28; /* Gold */
+}
+
+/* Si quieres que el color de fondo esté en el <a> en lugar del <li>
+   (esto puede ser útil si quieres que el padding del <a> defina el área coloreada)
+   puedes cambiar los selectores de arriba a:
+   nav ul.content li:nth-child(1) a { background-color: #FF6347; }
+   nav ul.content li:nth-child(2) a { background-color: #4682B4; }
+   etc.
+   Si haces esto, asegúrate que `display: block;` y `padding` estén en el `a`.
+*/
