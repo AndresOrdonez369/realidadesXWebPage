@@ -1323,7 +1323,7 @@ input, select, textarea {
 				overflow: hidden;
 				color:white;
 				font-weight: 900;
-				background-color: #24195abe;
+				background-color: #24195acb;
 				
 			}
 
@@ -1685,19 +1685,19 @@ nav ul.content li a {
 
 /* Colores de fondo específicos para cada <li> */
 nav ul.content li:nth-child(1) a {
-    background-color: #6647ff28; /* Tomato */
+    background-color: #24195acb; 
 }
 
 nav ul.content li:nth-child(2) a {
-    background-color: #6647ff28; /* SteelBlue */
+    background-color: #24195acb; 
 }
 
 nav ul.content li:nth-child(3) a {
-    background-color: #6647ff28; /* LimeGreen */
+    background-color: #24195acb; 
 }
 
 nav ul.content li:nth-child(4) {
-    background-color: #6647ff28; /* Gold */
+    background-color: #24195acb;
 }
 
 /* Si quieres que el color de fondo esté en el <a> en lugar del <li>
